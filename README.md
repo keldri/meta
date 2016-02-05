@@ -6,7 +6,7 @@ At Apartment Therapy Media we publish two lifestyle sites [**Apartment Therapy**
 
 ## About the Product Team
 
-Our Product Team currently consists of 8 (incredibly talented, friendly & collaborative) people: 6 engineers (3 senior / 3 junior), a web designer, and a product manager. We're currently hiring a second [product manager](http://www.apartmenttherapy.com/product-manager-224987) and [designer](http://www.apartmenttherapy.com/web-designer-224989).
+Our Product Team currently consists of 8 (incredibly talented, friendly & collaborative) people: 6 engineers (3 senior / 3 junior), a web designer, and a product manager. We're currently hiring a second [product manager](http://www.apartmenttherapy.com/product-manager-224987).
 
 Our team **works remotely**, as does much of the company. **Slack** has quickly become our critical communication channel. We make heavy use of Slack integrations including our own bot to manage code deployment & staging environments.
 
