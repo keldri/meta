@@ -8,15 +8,15 @@ At Apartment Therapy Media we publish two lifestyle sites [**Apartment Therapy**
 
 Our Product Team currently consists of 9 (incredibly talented, friendly & collaborative) people: 6 engineers (3 senior / 1 mid-level / 2 junior), 2 designers, and a product manager. We're currently hiring a second [product manager](http://www.apartmenttherapy.com/product-manager-224987).
 
-Our team **works remotely**, as does much of the company. **Slack** has quickly become our critical communication channel. We make heavy use of Slack integrations including our own bot to manage code deployment & staging environments.
+Our team **works remotely**, as does much of the company. **Slack** has quickly become our critical communication channel. When we need face-to-face time we use **Google Hangouts** for video chat.
 
 ## How We’re Organized
 
-We recently reached a critical growth phase as a team. We have just split our single team into separate self-sufficient **squads**, heavily inspired by the [Spotify model](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/). Each squad has its own independent mission, initiative pipeline, and issue queue to track and manage ongoing work. Our current open positions will fill out these squads and in 2016 we plan to fill 1-2 more squads with new hires.
+We recently reached a critical growth phase as a team. Our single team has been divided into separate self-sufficient **squads**, heavily inspired by the [Spotify model](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/). Each squad has its own independent mission, initiative pipeline, and issue queue to track and manage ongoing work. Our current open positions will fill out these squads and in 2016 we plan to fill 1-2 more squads with new hires.
 
 We follow a loose, "small a" agile methodology. We work on high-level initiatives in **two week sprints**. Each sprint starts with a planning session and ends with a retrospective, with a check-in halfway through. We also do a daily "Slack-Up" in chat with what we plan to accomplish each day.
 
-We're currently experimenting with models to more deeply integrate product and design work into our workflow and plan to run a pilot [design sprint](http://www.gv.com/sprint/) in the near future.
+We're currently experimenting with models to more deeply integrate product and design work into our workflow and are experimenting with [design sprints](http://www.gv.com/sprint/), with good results so far.
 
 ## How We Work
 
@@ -32,7 +32,7 @@ We deploy to **physical hardware**, finding the cost-to-performance ratio worth 
 
 Our two primary applications (a custom CMS and custom Community stack) are built with **Ruby on Rails** (4.1) making heavy use of **varnish**, **postgres**, **redis**, **unicorn** and **elasticsearch**. We also run a custom image service on **Sinatra** and two small, non-critical services built with **go**.
 
-Our application architecture is evolving into a back-end that delivers core content and provides an API for rich client-side code layered on top with **React** and a custom vanilla **Flux** implementation. We are experimenting with **GraphQL** and **Relay** for more integrated data management.
+Our application architecture is evolving into a back-end that delivers core content and provides an API for rich client-side code using **React** and a custom vanilla **Flux** implementation. We are experimenting with **GraphQL** and **Relay** for more integrated data management.
 
 ## Open Source Code
 
