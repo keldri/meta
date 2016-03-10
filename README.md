@@ -3,36 +3,35 @@
 At Apartment Therapy Media we publish two lifestyle sites [**Apartment Therapy**](http://ApartmentTherapy.com) and [**The Kitchn**](http://TheKitchn.com). Our mission is to help people make their homes more beautiful, organized and healthy by connecting them to a wealth of resources, ideas and community online.
 
 [**WE ARE HIRING!**](http://www.apartmenttherapy.com/jobs)
+## Who We Are
 
-## About the Product Team
+Our engineering & design teams currently consist of 6 (incredibly talented, friendly & collaborative) engineers (4 senior, 2 junior), 2 web designers, and 1 product manager.  We're currently hiring a second [product manager](http://www.apartmenttherapy.com/product-manager-224987) and fifth [senior developer](http://www.apartmenttherapy.com/web-designer-224989).
 
-Our Product Team currently consists of 9 (incredibly talented, friendly & collaborative) people: 6 engineers (3 senior / 1 mid-level / 2 junior), 2 designers, and a product manager. We're currently hiring a second [product manager](http://www.apartmenttherapy.com/product-manager-224987).
+Our team (and much of the company) **works remotely**. **Slack** has quickly become our critical communication channel. We make heavy use of Slack integrations including our own bot to manage code deployment & staging environments.
 
-Our team **works remotely**, as does much of the company. **Slack** has quickly become our critical communication channel. When we need face-to-face time we use **Google Hangouts** for video chat.
+## How We're Organized
 
-## How We’re Organized
+We've reached a critical growth phase as a team. We have just split our single team into separate self-sufficient squads with independent missions, heavily inspired by the [Spotify model](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/). Our current open positions will fill out these squads and our hiring plan into 2016 includes creating 1-2 more squads.
 
-We recently reached a critical growth phase as a team. Our single team has been divided into separate self-sufficient **squads**, heavily inspired by the [Spotify model](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/). Each squad has its own independent mission, initiative pipeline, and issue queue to track and manage ongoing work. Our current open positions will fill out these squads and in 2016 we plan to fill 1-2 more squads with new hires.
+Each squad has its own mission, related initiative pipeline (for future planning purposes) and issue tracker (currently Trello boards) for tracking and managing ongoing work. We currently work in **two week sprints**.
 
-We follow a loose, "small a" agile methodology. We work on high-level initiatives in **two week sprints**. Each sprint starts with a planning session and ends with a retrospective, with a check-in halfway through. We also do a daily "Slack-Up" in chat with what we plan to accomplish each day.
+We're currently experimenting with models to more deeply integrate product and design work into our workflow and plan to run a pilot [design sprint](http://www.gv.com/sprint/) in the near future.
 
-We're currently experimenting with models to more deeply integrate product and design work into our workflow and are experimenting with [design sprints](http://www.gv.com/sprint/), with good results so far.
+## How We Work - Engineering
 
-## How We Work
+We use **git** and **GitHub** for our projects. We use GitHub's **pull requests for code review**. We're currently tracking stories in **Trello**. 
 
-We use **git** and **GitHub** for our projects. All non-trivial code is **peer-reviewed** using GitHub's pull requests. We're currently tracking stories in **Trello**. 
+We practice **continuous integration**. We run our automated tests through our build system (CircleCI) and have invested heavily in tools to make deploying new code ordinary and routine. We deploy code every day.
 
-We practice **continuous integration**. We run our automated tests through our build system (**CircleCI**) and have invested heavily in tools to make deploying new code ordinary and routine. We deploy code every day.
+We currently use **New Relic**'s suite of tools for application monitoring. We catch exceptions with **Airbrake**, and monitor front-end performance with **SpeedCurve**.
 
-We currently use **ScoutApp** and **New Relic**'s suite of tools for systems and application monitoring. We catch exceptions with **Airbrake**, monitor front-end performance with **SpeedCurve**, and track custom metrics with **Librato**.
-
-We deploy to **physical hardware**, finding the cost-to-performance ratio worth the tradeoffs (though we have experience operating VPS deployments and are evaluating PaaS alternatives). We currently use **puppet** for configuration management.
+We deploy to **Heroku**, finding the cost-to-performance ratio worth the tradeoffs.  
 
 ## Stack & Tools
 
-Our two primary applications (a custom CMS and custom Community stack) are built with **Ruby on Rails** (4.1) making heavy use of **varnish**, **postgres**, **redis**, **unicorn** and **elasticsearch**. We also run a custom image service on **Sinatra** and two small, non-critical services built with **go**.
+Our two primary applications (a custom CMS and custom Community stack) are built with **Ruby on Rails** (4.1) making heavy use of **varnish (via Fastly), postgres, redis, unicorn and elasticsearch**. We also run a custom image service on **Sinatra**.
 
-Our application architecture is evolving into a back-end that delivers core content and provides an API for rich client-side code using **React** and a custom vanilla **Flux** implementation. We are experimenting with **GraphQL** and **Relay** for more integrated data management.
+Our application architecture is evolving into a back-end that primarily serves as an API for rich client-side code built with **React.js** and the **Flux** architecture. 
 
 ## Open Source Code
 
@@ -40,40 +39,30 @@ We recently extracted and published a couple of gems we use in our color-based i
 * [multicolor](https://github.com/apartmenttherapy/multicolor): an opinionated library for [TinEye's fabulous MulticolorEngine](http://services.tineye.com/MulticolorEngine)
 * [color-rgb](https://github.com/apartmenttherapy/color-rgb): a set of utilities to help with dealing with RGB colors
 
-## Our [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) Answers
+## Our "Joel Test" Answers
 
-* Do you use source control?  
-  **Yes, git & GitHub.**
+* Do you use source control? _Yes. git & GitHub._
 
-* Can you make a build in one step?  
-  **Yes. This is automated with Jenkins. Deploys to staging & production environments are also a single command.**
+* Can you make a build in one step? _Yes. This is automated with CircleCI. Deploys to staging & production environments are also a single command._
 
-* Do you make daily builds?  
-  **Yes, this is continuous and automated.**
+* Do you make daily builds? _Yes, this is continuous and automated._
 
-* Do you have a bug database?  
-  **Yes, we track bugs in Trello.**
+* Do you have a bug database? _Yes, we track bugs in Trello._
 
-* Do you fix bugs before writing new code?  
-  **Yes, in most cases.**
+* Do you fix bugs before writing new code? _Yes, in most cases._
 
-* Do you have an up-to-date schedule?  
-  **Sort of. We engage in a "small a" agile process to track and estimate current and near-term work and priorities.**
+* Do you have an up-to-date schedule? _Sort of. We engage in an agile (small a) process to track & estimate current & near term work & priorities._
 
-* Do you have a spec?  
-  **_Usually, and we're constantly improving our intitiative and story definitions.**
+* Do you have a spec? _Usually and we're getting better at better intitiative and story definition._
 
-* Do programmers have quiet working conditions?  
-  **Yes. We all work from home.**
+* Do programmers have quiet working conditions? _Yes. We all work from home._
 
-* Do you use the best tools money can buy?  
-  **Yes.**
+* Do you use the best tools money can buy? _Yes._
 
-* Do you have testers?  
-  **No.**
+* Do you have testers? _No._
 
-* Do new candidates write code during their interview?  
-  **Yes.**
+* Do new candidates write code during their interview? _Yes._
 
-* Do you do hallway usability testing?  
-  **Yes, though our "hallways" are on Slack.**
+* Do you do hallway usability testing? _Yes, though our "hallways" are on Slack._
+
+[WE ARE HIRING](http://www.apartmenttherapy.com/jobs).
