@@ -1,6 +1,6 @@
 ## About Apartment Therapy Media
 
-At Apartment Therapy Media we publish two lifestyle sites [**Apartment Therapy**](http://ApartmentTherapy.com) and [**Kitchn**](http://TheKitchn.com). Our mission is to help people make their homes more beautiful, organized and healthy by connecting them to a wealth of resources, ideas and community online.
+At Apartment Therapy Media we publish the lifestyle sites [**Apartment Therapy**](http://www.apartmenttherapy.com) and [**Kitchn**](http://www.thekitchn.com) for an audience of 29+ million monthly readers. Our mission is to help people make their homes more beautiful, organized and healthy by connecting them to a wealth of resources, ideas and community online.
 
 [**WE ARE HIRING!**](http://www.apartmenttherapy.com/jobs)
 
