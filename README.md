@@ -12,7 +12,7 @@ Our team (and much of the company) **works remotely**. The whole company communi
 
 ## Team Culture
 
-At our size it’s necessary to have some structure over the team, but we still try our best to maintain a **flat culture**. Artificial boundaries get in the way of good work, so we’re as permissive as practical with our code, tools, and processes. We also want our team to embody a great **diversity of ideas** so we strive to give everyone space for their thoughts and opinions to be considered.
+At our size it’s necessary to have some structure over the team, but we still try our best to maintain a **flat culture**. Artificial boundaries get in the way of good work, so we’re as permissive as practical with our code, tools, and processes. We also want our team to embody a great **diversity of ideas** so we strive to create space for everyone's thoughts and opinions to be considered.
 
 We want to be a team that’s built on **mutual respect**. When we have a big success, we share in it together. When we have a misstep, we use **blameless postmortems** to learn from it. In short — no heroes, no egos.
 
