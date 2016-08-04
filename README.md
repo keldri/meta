@@ -52,7 +52,7 @@ We have a few small open-sourced projects and hope to continue open-sourcing mor
 * [multicolor](https://github.com/apartmenttherapy/multicolor): an opinionated Ruby gem for [TinEye’s fabulous MulticolorEngine](http://services.tineye.com/MulticolorEngine)
 * [color-rgb](https://github.com/apartmenttherapy/color-rgb): a set of utilities to help with dealing with RGB colors in Ruby
 
-## Our “Joel Test” Answers
+## Our [“Joel Test”](http://www.joelonsoftware.com/articles/fog0000000043.html) Answers
 
 * **Do you use source control?**  
   Yes. git & GitHub.
