@@ -28,7 +28,7 @@ Regardless of how we're organized at any given time, we always strive to maintai
 
 We follow an informal agile (small “a”) process. Our **two-week sprints** begin with team planning sessions and end with a retrospective. We have a check-in meeting in the middle and daily **“Slack-Up Meetings”** to keep our work aligned and on track.
 
-We work together in small groups focused on team and company goals with a lot of **autonomy** over how we meet them. Sometimes the bet way forward is fairly obvious, but we’ve also tried [**design sprints**](http://www.gv.com/sprint/) to better understand the problems and possible solutions ahead of us.
+We work together in small groups focused on team and company goals with a lot of **autonomy** over how we meet them. Sometimes the best way forward is fairly obvious, but we’ve also tried [**design sprints**](http://www.gv.com/sprint/) to better understand the problems and possible solutions ahead of us.
 
 We’re currently working on integrating **data analysis** and **KPI dashboards** more deeply into our process so we can rapidly iterate based on real-world learning. As part of this work we use **feature toggles** so we can build and test new features directly in our production environment and roll them out slowly to our traffic for **A/B testing**.
 
