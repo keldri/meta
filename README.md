@@ -18,17 +18,19 @@ We want to be a team that’s built on **mutual respect**. When we have a big su
 
 ## How We’re Organized
 
-Over the past year we’ve been working in small cross-functional **squads**, heavily inspired by the [Spotify model](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/). Each squad has its own mission, related initiative pipeline and issue tracker to manage ongoing work. Despite this division of work, we maintain a cohesive team environment and strongly encourage cross-squad collaboration and support.
+As our organization grows we're continually experimenting with our processes, including how we organize ourselves around the work at hand. For about 18 months we worked in small cross-functional **squads**, heavily inspired by the [Spotify model](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/). Each squad was autonomous and focused on a product area.
 
-We’re continually experimenting with our processes, and just recently invited stakeholders from other departments into our squads to encourage more company-wide collaboration. These non-Product squad members sketch with us, work alongside us, and as a result share ownership of what we’re building together.
+Recently we've adopted company-wide [OKRs](https://en.wikipedia.org/wiki/OKR) to tie our work more closely to business goals, which requires a little more fluidity than our squad model allowed. Every quarter when we set new OKRs, the team gets together to discuss the goals and how we'd like to meet them. It requires a little more collaboration and communication, but it also lets people switch around to different product areas more frequently and work very directly with the whole team through the year.
+
+Regardless of how we're organized at any given time, we always strive to maintain a cohesive team environment and strongly encourage close collaboration and mutual support.
 
 ## Processes & Workflow
 
-We follow an informal agile (small “a”) process. Our **two-week sprints** begin with individual squad planning sessions and end with a team-wide retrospective. We have a check-in meeting in the middle and daily **“Slack-Up Meetings”** to keep our work aligned and on track.
+We follow an informal agile (small “a”) process. Our **two-week sprints** begin with team planning sessions and end with a retrospective. We have a check-in meeting in the middle and daily **“Slack-Up Meetings”** to keep our work aligned and on track.
 
-Our squads have a lot of **autonomy** over how they work. In general, each squad is driven by high-level goals and can fulfill those goals as they best see fit. Sometimes the next steps for a squad are obvious, but we’ve also tried [**design sprints**](http://www.gv.com/sprint/) to better understand the problems and possible solutions ahead of us.
+We work together in small groups focused on team and company goals with a lot of **autonomy** over how we meet them. Sometimes the bet way forward is fairly obvious, but we’ve also tried [**design sprints**](http://www.gv.com/sprint/) to better understand the problems and possible solutions ahead of us.
 
-We’re currently working on integrating **data analysis** and **KPI dashboards** more deeply into our process so we can rapidly iterate based on real-world learning. As part of this work we’re playing with **feature toggles** so we can build and test new features directly in our production environment.
+We’re currently working on integrating **data analysis** and **KPI dashboards** more deeply into our process so we can rapidly iterate based on real-world learning. As part of this work we use **feature toggles** so we can build and test new features directly in our production environment and roll them out slowly to our traffic for **A/B testing**.
 
 ## Stack & Tools
 
@@ -64,13 +66,13 @@ We have a few small open-sourced projects and hope to continue open-sourcing mor
   Yes, this is continuous and automated.
 
 * **Do you have a bug database?**  
-  Yes, we track bugs in Trello and have a dedicated squad for critical bugfixes and code cleanup.
+  Yes, we track bugs in Trello and have team members dedicated to critical bugfixes and code cleanup.
 
 * **Do you fix bugs before writing new code?**  
   Yes, in most cases.
 
 * **Do you have an up-to-date schedule?**  
-  Yes. Our squads have clear near-term goals.
+  Yes. Every quarter we update our company and team OKRs to match our current business needs.
 
 * **Do you have a spec?**  
   Yes. We also have relevant stakeholders actively working with us.
