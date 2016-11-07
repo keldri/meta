@@ -40,11 +40,11 @@ Our application architecture is evolving into a back-end that primarily serves a
 
 We use **git** and **GitHub** for our projects. All non-trivial code is reviewed in GitHub **pull requests**. We’re currently tracking our work in **Trello**.
 
-We practice **continuous integration**. We run our automated tests through our build system (CircleCI) and have invested heavily in tools to make deploying new code ordinary and routine. We deploy code every day.
+We practice **continuous integration**. We run our automated tests through our build system (BuildKite) and have invested heavily in tools to make deploying new code ordinary and automatic. We deploy code every day.
 
-We currently use **New Relic**’s suite of tools for application monitoring. We catch exceptions with **Airbrake**, and monitor front-end performance with **SpeedCurve**.
+We currently use **New Relic**’s suite of tools for application monitoring, graph everything with **Datadog**, catch exceptions with **Airbrake**, Send notifications with **PagerDuty**, and monitor front-end performance with **SpeedCurve**.
 
-We deploy to **Heroku**, finding the cost-to-performance ratio worth the tradeoffs.
+We deploy to **Our own Linux servers**, finding the cost-to-performance ratio worth the DevOps investment.
 
 ## Open Source Code
 
