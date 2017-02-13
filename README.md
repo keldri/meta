@@ -38,7 +38,7 @@ Our two primary applications (a custom CMS and custom Community stack) are built
 
 Our application architecture is evolving into a back-end that primarily serves as an API for rich client-side code built with **React.js** and a house implementation of the **Flux** architecture. Our front-end assets are compiled through **webpack** using **Babel**, **SASS**, and other modern tooling. We recently implemented **server-rendering of React components** to share UI code between our server-generated HTML and dynamic features.
 
-We use **git** and **GitHub** for our projects. All non-trivial code is reviewed in GitHub **pull requests**. We’re currently tracking our work in **Trello**.
+We use **git** and **GitHub** for our projects. All non-trivial code is reviewed in GitHub **pull requests**. We’re currently tracking our work in **Asana**.
 
 We practice **continuous integration**. We run our automated tests through our build system (BuildKite) and have invested heavily in tools to make deploying new code ordinary and automatic. We deploy code every day.
 
